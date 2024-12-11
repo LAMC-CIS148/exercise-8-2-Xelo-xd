@@ -15,6 +15,9 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
+nav ul.submenu {
+	width: 100%;
+}
 a:focus, a:hover {
 	font-style: italic;
 }
