@@ -60,6 +60,16 @@ nav li a{
 	display: block;
 	width: 100%;
 }
+@media (max-width: 600px) {
+	nav#main_menu{
+		display: none;
+}
+	nac#mobile_menu {
+		display: block;
+}
+.slicknav_menu {
+	background-color: #800000 !important;
+}
 }
 #nav_menu ul li {
 	float: left;
@@ -171,8 +181,11 @@ footer {
 	clear: both;
 
 }
+@media (max-width: 400px) {
 footer p {
+	font-size: 90%;
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
 }
