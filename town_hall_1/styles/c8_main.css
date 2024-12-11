@@ -56,6 +56,11 @@ header img {
 nav ul.submenu {
 	width: 100%;
 }
+nav li a{
+	display: block;
+	width: 100%;
+}
+}
 #nav_menu ul li {
 	float: left;
 }
@@ -134,6 +139,8 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
+	max-width: 40%;
+	min-width: 150px;
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
