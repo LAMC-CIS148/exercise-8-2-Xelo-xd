@@ -15,9 +15,6 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-nav ul.submenu {
-	width: 100%;
-}
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -56,6 +53,9 @@ header img {
 	padding: 0;
 	position: relative;
 }
+nav ul.submenu {
+	width: 100%;
+}
 #nav_menu ul li {
 	float: left;
 }
@@ -91,7 +91,7 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 525px;
+	width: 60%;
 	float: right;
 	padding: 0 20px 20px 20px;
 }
@@ -141,7 +141,7 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 35%;
 	float: right;
 	padding: 0 0 20px 20px;
 }
